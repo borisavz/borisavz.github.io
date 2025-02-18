@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Borisav Živanović</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Borisav Živanović</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;I am a software engineer specializing in compilers and programming language design. I am interested in all topics related to implementation of programming languages, ranging from linkers to heap memory allocators. I have experience in all phases of programming language development, ranging from mathematical proofs to nasty implementation details.&lt;/p&gt;&#xA;&lt;p&gt;I am also experienced in software architecture. I have worked on all phases of design and implementation of applications based on monolith, SOA and event based architectures. I have designed and implemented notification system (Android, iOS and Webpush), and several other microservice-based solutions. I have designed, implemented and improved security mechanisms in web applications. I was responsible for automated containerized deployment of microservices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DP Bora - transformation-based optimizers strike back!</title>
+      <link>http://localhost:1313/dp-bora/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dp-bora/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/borisavz/dp-bora&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;GitHub repository&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;DP Bora is a novel algorithm for optimization of SQL queries.&#xA;It is closely based on DP SUBE, so readers are advised to read the DP SUBE&#xA;paper first (&lt;a href=&#34;https://www.researchgate.net/publication/262216932_On_the_correct_and_complete_enumeration_of_the_core_search_space&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;On the correct and complete enumeration of the core search space&lt;/a&gt;).&#xA;DP Bora dispoves three thesis present in DP SUBE paper:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Transformation-based optimizers are not efficient because they consume a lot of memory&lt;/li&gt;&#xA;&lt;li&gt;Transformation-based optimizers generate exponential number of duplicates&lt;/li&gt;&#xA;&lt;li&gt;Transformation-based optimizers generate invalid transformations that are discarded later&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Current limitations are overcome by innovative data structure called &lt;strong&gt;query hypertree&lt;/strong&gt;,&#xA;which describes complete combinatorial search space in a compact and duplicate-free representation&#xA;suitable for use in both top-down (memoization) and bottom-up (dynamic programming) optimizers.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

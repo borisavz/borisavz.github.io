@@ -1,0 +1,14 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Borisav Živanović"
+theme = "digitalgarden"
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 1
+
+[[menu.main]]
+name = "DP Bora"
+url = "/dp-bora/"
+weight = 1
